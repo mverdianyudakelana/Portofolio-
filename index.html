@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Verdian Yuda Kelana | Portfolio</title>
+  <meta name="description" content="Portofolio profesional M. Verdian Yuda Kelana, lulusan SMK Akuntansi dan Keuangan Lembaga yang tertarik pada administrasi dan keuangan.">
+  <meta property="og:title" content="M. Verdian Yuda Kelana | Portfolio">
+  <meta property="og:description" content="Administrasi, keuangan, pengelolaan data, dan pengembangan profesional.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profile/profile-placeholder.svg">
+  <meta name="theme-color" content="#f7f9fc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Kembali ke beranda"><span>MV</span><strong>Verdian</strong></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Buka menu"><i data-lucide="menu"></i></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#skills">Skills</a><a href="#interests">Interests</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle icon-button" type="button" aria-label="Ganti tema"><i data-lucide="moon"></i></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Profesional muda · Akuntansi & Administrasi</p>
+          <h1 id="profile-name">M. Verdian<br><span>Yuda Kelana</span></h1>
+          <p class="hero-headline" id="profile-headline"></p>
+          <p class="hero-summary" id="profile-summary"></p>
+          <div class="hero-actions">
+            <a class="button primary" id="cv-link" href="assets/documents/CV-M-Verdian-Yuda-Kelana.pdf" download><i data-lucide="download"></i> Download CV</a>
+            <a class="button secondary" href="#contact"><i data-lucide="mail"></i> Contact Me</a>
+          </div>
+          <div class="social-links" id="social-links"></div>
+        </div>
+        <div class="portrait-wrap reveal">
+          <div class="portrait-frame"><img id="profile-photo" src="assets/images/profile/profile-placeholder.svg" alt="Foto profil M. Verdian Yuda Kelana"></div>
+          <div class="status-chip"><span></span> Open to opportunities</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Tentang Saya</p><h2>Profil profesional</h2></div><div class="about-grid"><div class="about-card reveal"><p id="about-summary"></p></div><div class="education-card reveal"><i data-lucide="graduation-cap"></i><div><span>Pendidikan</span><h3 id="education-school"></h3><p id="education-major"></p><small id="education-level"></small></div></div></div></div></section>
+
+    <section class="section section-muted" id="experience"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Perjalanan</p><h2>Pengalaman</h2></div><div class="timeline" id="experience-list"></div></div></section>
+
+    <section class="section" id="achievements"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Pencapaian</p><h2>Prestasi & Kompetisi</h2></div><div class="achievement-grid" id="achievement-list"></div></div></section>
+
+    <section class="section section-muted" id="skills"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Kompetensi</p><h2>Kemampuan</h2></div><div class="skills-grid" id="skills-list"></div></div></section>
+
+    <section class="section" id="interests"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Pengembangan Diri</p><h2>Minat & Bidang Dipelajari</h2><p>Area minat saat ini, bukan klaim tingkat keahlian profesional.</p></div><div class="interest-grid" id="interest-list"></div></div></section>
+
+    <section class="section section-muted" id="projects"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Portofolio</p><h2>Proyek</h2></div><div class="project-grid" id="project-list"></div></div></section>
+
+    <section class="section" id="gallery"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Dokumentasi</p><h2>Galeri Kegiatan</h2></div><div class="gallery-grid" id="gallery-list"></div></div></section>
+
+    <section class="section contact-section" id="contact"><div class="container contact-grid"><div class="reveal"><p class="eyebrow">Mari Terhubung</p><h2>Tertarik bekerja sama atau berdiskusi?</h2><p>Silakan gunakan kontak yang tersedia untuk memulai percakapan profesional.</p></div><div class="contact-actions reveal" id="contact-actions"><a class="button primary" id="email-link" href="mailto:"><i data-lucide="mail"></i> Kirim Email</a><a class="button secondary" id="whatsapp-link" href="#" target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a></div></div></section>
+  </main>
+
+  <footer><div class="container"><p>© <span id="year"></span> <span id="footer-name"></span></p><a href="#home" aria-label="Kembali ke atas"><i data-lucide="arrow-up"></i></a></div></footer>
+  <button class="back-to-top icon-button" type="button" aria-label="Kembali ke atas"><i data-lucide="arrow-up"></i></button>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close icon-button" type="button" aria-label="Tutup"><i data-lucide="x"></i></button><div class="modal-content" id="modal-content"></div></div>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

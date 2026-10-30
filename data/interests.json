@@ -1,0 +1,9 @@
+[
+  {"name":"Personal Finance","icon":"wallet-cards"},
+  {"name":"Investment Management","icon":"chart-candlestick"},
+  {"name":"Stock Market","icon":"chart-no-axes-combined"},
+  {"name":"Financial Analysis","icon":"chart-column-big"},
+  {"name":"Fixed Income & Obligasi","icon":"landmark"},
+  {"name":"Financial Planning","icon":"calendar-range"},
+  {"name":"Business Administration","icon":"briefcase-business"}
+]
