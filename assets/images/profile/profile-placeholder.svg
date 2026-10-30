@@ -1,57 +1,61 @@
-<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile portrait">
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portrait photo of a man in white shirt and black tie on red background">
   <defs>
-    <linearGradient id="shirtGrad" x1="0" x2="0" y1="0" y2="1">
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ea0505"/>
+      <stop offset="100%" stop-color="#d70000"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4d8c5"/>
+      <stop offset="55%" stop-color="#ebbf9b"/>
+      <stop offset="100%" stop-color="#d79c73"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#e6e6e6"/>
+      <stop offset="100%" stop-color="#eaeaea"/>
     </linearGradient>
-    <linearGradient id="skinGrad" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#f3d3b8"/>
-      <stop offset="100%" stop-color="#d6a480"/>
+    <linearGradient id="hair" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#191919"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
-    <linearGradient id="hairGrad" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#171715"/>
-      <stop offset="100%" stop-color="#050505"/>
-    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
 
-  <rect width="900" height="1200" fill="#d60404"/>
+  <rect width="900" height="1200" fill="url(#bg)"/>
 
-  <g transform="translate(0,10)">
-    <path d="M195 1150 L705 1150 L685 740 Q620 820 450 820 Q280 820 215 740 Z" fill="url(#shirtGrad)"/>
-    <path d="M402 748 L495 748 L520 1100 L377 1100 Z" fill="#0d0d0d"/>
-    <path d="M360 780 L450 820 L540 780 L500 1100 L400 1100 Z" fill="#0c0c0c"/>
+  <g filter="url(#softShadow)">
+    <path d="M185 1118 L715 1118 L675 760 Q615 835 450 835 Q285 835 220 760 Z" fill="url(#shirt)"/>
+    <path d="M395 760 L505 760 L522 1118 L378 1118 Z" fill="#0a0a0a"/>
+    <path d="M325 760 L450 820 L575 760 L540 1118 L360 1118 Z" fill="#070707"/>
 
-    <ellipse cx="450" cy="550" rx="247" ry="280" fill="url(#skinGrad)"/>
-    <path d="M208 520 Q275 350 370 310 Q420 290 450 295 Q480 290 530 310 Q625 350 692 520 L675 470 Q620 300 450 250 Q280 300 225 470 Z" fill="url(#hairGrad)"/>
+    <ellipse cx="450" cy="500" rx="252" ry="295" fill="url(#skin)"/>
 
-    <path d="M340 470 Q410 430 450 435 Q490 430 560 470 L535 650 Q490 675 450 675 Q410 675 365 650 Z" fill="url(#skinGrad)"/>
+    <path d="M210 495 Q270 290 390 255 Q430 245 450 250 Q470 245 510 255 Q630 290 690 495 L672 470 Q622 330 450 285 Q278 330 225 470 Z" fill="url(#hair)"/>
 
-    <ellipse cx="360" cy="510" rx="26" ry="20" fill="#fff"/>
-    <ellipse cx="540" cy="510" rx="26" ry="20" fill="#fff"/>
-    <circle cx="360" cy="518" r="9" fill="#1f1f1f"/>
-    <circle cx="540" cy="518" r="9" fill="#1f1f1f"/>
-    <circle cx="354" cy="512" r="3" fill="#fff"/>
-    <circle cx="534" cy="512" r="3" fill="#fff"/>
+    <path d="M325 310 Q392 287 450 292 Q505 287 575 310 Q620 330 646 392 L640 470 Q604 433 565 420 Q520 408 450 402 Q380 408 335 420 Q296 433 260 470 L255 392 Q282 331 325 310 Z" fill="url(#hair)"/>
 
-    <path d="M448 535 Q455 560 450 575 Q444 560 448 535" fill="none" stroke="#b77e61" stroke-width="6" stroke-linecap="round"/>
-    <path d="M451 560 Q430 580 420 600" fill="none" stroke="#b77e61" stroke-width="6" stroke-linecap="round"/>
-    <path d="M450 600 Q437 620 432 640" fill="none" stroke="#b77e61" stroke-width="6" stroke-linecap="round"/>
-    <path d="M381 625 C418 647 482 647 521 625" fill="none" stroke="#d98d72" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="360" cy="485" rx="29" ry="25" fill="#fff"/>
+    <ellipse cx="540" cy="485" rx="29" ry="25" fill="#fff"/>
+    <circle cx="360" cy="489" r="10" fill="#1d1d1d"/>
+    <circle cx="540" cy="489" r="10" fill="#1d1d1d"/>
+    <circle cx="353" cy="482" r="4" fill="#fff"/>
+    <circle cx="533" cy="482" r="4" fill="#fff"/>
 
-    <path d="M420 600 Q450 612 480 600" fill="none" stroke="#d38b68" stroke-width="5" stroke-linecap="round"/>
-    <path d="M403 650 Q450 670 498 650" fill="none" stroke="#af6d53" stroke-width="6" stroke-linecap="round"/>
+    <path d="M403 550 Q450 575 497 550" fill="none" stroke="#d28c6a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M448 555 Q452 578 448 594 Q445 602 439 606" fill="none" stroke="#c27d61" stroke-width="5" stroke-linecap="round"/>
+    <path d="M384 602 C420 640 480 640 516 602" fill="none" stroke="#d68e74" stroke-width="7" stroke-linecap="round"/>
 
-    <path d="M295 420 Q343 410 365 430" fill="none" stroke="#0d0d0d" stroke-width="14" stroke-linecap="round"/>
-    <path d="M605 420 Q557 410 535 430" fill="none" stroke="#0d0d0d" stroke-width="14" stroke-linecap="round"/>
+    <path d="M315 432 Q355 405 389 431" fill="none" stroke="#111111" stroke-width="13" stroke-linecap="round"/>
+    <path d="M585 432 Q545 405 511 431" fill="none" stroke="#111111" stroke-width="13" stroke-linecap="round"/>
 
-    <path d="M310 420 Q230 490 235 600" fill="none" stroke="#0d0d0d" stroke-width="24" stroke-linecap="round" opacity="0.9"/>
-    <path d="M590 420 Q670 490 665 600" fill="none" stroke="#0d0d0d" stroke-width="24" stroke-linecap="round" opacity="0.9"/>
+    <path d="M315 405 Q250 482 252 610" fill="none" stroke="#0f0f0f" stroke-width="24" stroke-linecap="round" opacity="0.95"/>
+    <path d="M585 405 Q650 482 648 610" fill="none" stroke="#0f0f0f" stroke-width="24" stroke-linecap="round" opacity="0.95"/>
 
-    <path d="M282 322 Q214 342 200 430" fill="none" stroke="#0d0d0d" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
-    <path d="M618 322 Q686 342 700 430" fill="none" stroke="#0d0d0d" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+    <path d="M290 335 Q215 350 205 440" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round" opacity="0.9"/>
+    <path d="M610 335 Q685 350 695 440" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round" opacity="0.9"/>
 
-    <path d="M420 700 L450 888 L480 700" fill="none" stroke="#0e0e0e" stroke-width="8" stroke-linecap="round"/>
-    <path d="M450 744 L450 1000" fill="none" stroke="#0e0e0e" stroke-width="8" stroke-linecap="round"/>
-    <path d="M420 700 L350 830 L450 888 L550 830 L480 700" fill="#0e0e0e" opacity="0.95"/>
+    <path d="M450 740 L450 960" fill="none" stroke="#0a0a0a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M420 700 L450 900 L480 700" fill="none" stroke="#0a0a0a" stroke-width="8" stroke-linecap="round"/>
   </g>
 </svg>
